@@ -31,5 +31,31 @@ console.log(manoAmzius);
 var kintamasis = 'x';
 console.log(kintamasis);
 
+const s1 = 5;
+const s2 = 10;
 
+const skirtumas = s1 - s2;
+console.log(skirtumas);
+
+const dalmuo = s1 / s2;
+console.log (dalmuo)
+
+const daugyba = s1 * s2;
+console.log(daugyba);
+
+const t1 = 'labas';
+const t2 = 'rytas';
+
+const pass = t1 + ' ' + t2;
+console.log(pass);
+
+const abc = ['a', 'b', 'c', 'd', 'e' ]
+console.log(abc);
+
+if(s1 <= s2){
+console.log('true');
+} else {
+    console.log('NEDIDESNIS');
+    
+}
 
