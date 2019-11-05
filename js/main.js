@@ -58,4 +58,35 @@ console.log('true');
     console.log('NEDIDESNIS');
     
 }
+// ciklai==========
 
+
+console.log('1 atsispaudimai');
+console.log('2 atsispaudimai');
+console.log('3 atsispaudimai');
+console.log('4 atsispaudimai');
+console.log('5 atsispaudimai');
+console.log('6 atsispaudimai');
+console.log('7 atsispaudimai');
+
+let kiekAtsispaudimu = 7;
+kiekAtsispaudimu++;
+
+for( let n=1; n<=kiekAtsispaudimu; n++){
+    console.log(n + ' atsispaudimai');
+    
+}
+const skait = ([1, 2, 8, 4,])
+console.log(skait);
+
+for (let i=0; i<skait.length; i++){
+    console.log(i ,'-', skait[i]);
+    
+}
+console.log(pass);
+for(let i=0; i<pass.length; i++){
+    if(pass[i]  !== ' '){
+    console.log(i, '-', pass[i]);
+    }
+}
+// const backward = labas 
