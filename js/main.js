@@ -488,7 +488,7 @@ function didziausiasSkaiciusSarase( list ) {
     if (biggest == -Infinity){
        return 'negalima funkcija';
     }
- console.log(list2);
+//  console.log(temp);
  
     return biggest;
 }
@@ -504,7 +504,25 @@ console.log( didziausiasSkaiciusSarase( [ 69, 69, 69, 69, 66 ] ) );
 console.log( didziausiasSkaiciusSarase( [ -1, -2, -3, -4, -5, -6, -7, -8 ] ) );
 
 
-console.log( didziausiasSkaiciusSarase( [ 'asdf', 78, 14, 0, 18 ] ) );
+console.log( didziausiasSkaiciusSarase( [ 'asdf', 78, 14, 'jsjshgds', 0, 18, -67, -80, 100] ) );
 console.log( didziausiasSkaiciusSarase( [ 'asdf', 'asdf', 'asdf' ] ) );
 
 
+//  function isrinktiRaides(text, step) {
+//     let ats = '';
+//     for (let i=step-1; i<text.length; i=i+step){
+//         ats = ats + text[i];
+//     }
+//     return ats;
+// }
+// console.log( isrinktiRaides( 1561, 2 ) );
+// console.log( isrinktiRaides( 'abcdefg', 2 ) );
+// console.log( isrinktiRaides( 'abcdefghijkl', 3 ) );
+// console.log( isrinktiRaides( 'abc', 0 ) );
+// console.log( isrinktiRaides( 'abc', 4 ) );
+
+function dalyba(s01, s02){
+    
+    return s01/s02;
+}
+console.log(dalyba(8, 4));
